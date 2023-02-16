@@ -1,0 +1,160 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace,sans-serif;
+}
+
+body {
+    background:rgb(109, 108, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0, 1)
+}
+
+.left-side {
+    position: relative;
+    background: lightgray;
+    padding:40px;
+}
+
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(8, 8, 8, 0.952);
+}
+
+.imgBox {
+    position: relative;
+    width: 300px;  
+    height: 300px; 
+    border-radius: 150px;
+    overflow: hidden;
+}  
+
+.imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.profiletext h2 {
+    color: #110101;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+ 
+.profiletext h2 span {
+   font-size: 0.8em;
+   font-weight: 300;
+}
+
+.contactInfo {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(8, 8, 8, 0.952);
+
+}
+
+.Location, .email, .phone {
+    text-align: center;
+}
+
+.container.right_side {
+    position: relative;
+    background: #fff;
+    padding:40 px;
+   }
+
+.title1, .title4 {
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 34px;
+    border-bottom: 3px solid rgba(8, 8, 8, 0.952);
+}
+     
+.title2, .title3, .title5, .title6, .title7, .title8 {
+   margin: 30px;
+}
+
+.tasks3, .tasks4, .tasks1, .tasks {
+   margin:30px;
+   font-weight: bold;
+}
+
+.exp, .exp1, .exp2, .exp3, .exp4, .exp5 {
+   margin-left:50px;
+}
+
+.date, .date1, .date2, .date3, .date4 {
+   margin:30px;
+}
+
+.name {
+   color: rgb(105, 105, 255);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footerWrap {
+   width:50%;
+   position: relative;
+   bottom: 0px;
+}
+.footer {
+   width:620px;
+   margin:auto;
+}
+.footerContent {
+   float:left;
+   width:100%;
+   background-color:#555;
+   padding:20px 30px;
+}
+
+a {
+   color: black;
+ }
+ 
+ a:visited {
+   color: black;
+ }
+ 
+ a:hover {
+   color: white;
+ }
+ 
+ a:active {
+   color: white;
+ }
